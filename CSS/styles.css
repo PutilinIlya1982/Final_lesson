@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "quite_chocolatey";
+    src: url(../FONTS/Quite\ Chocolatey.ttf);
+    font-style: normal; 
+    font-weight: normal;
+}
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.page {
+    width: 1200px;
+    height: 2090px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 690px;
+    background-color: #dd2211;
+    background-image: url(../IMG/Корректный.png);
+    background-size: cover;
+}
+.headerTop {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.headerTop p {
+    width: 540px;
+    font-size: 83px;
+    text-align: center;
+    margin-bottom: 0px; 
+    margin-top: 10px;
+    font-family: "quite_chocolatey";
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 500;
+    color: #130e27;
+    margin-top: 145px;
+    margin-bottom: 0px;
+}
+h1 .accent {
+    color:#ffffff;
+}
+.logo {
+}
+.menu {display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 660px;
+    height: 50px;
+}
+.button {
+    width: 86px;
+    height: 39px;
+    margin:10px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.button:hover {
+    background-color: #130e27;
+    border-radius: 7%;
+
+}
+a {
+    width: 86px;
+    height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+
+}
+.slogan {
+    vertical-align: middle;
+    text-align: left;
+    height: 100%; 
+    width: 55%; 
+    padding-left: 98px;
+
+}
+.slogan p {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 142px;
+    color:#ffffff;
+    line-height: 1.5em; 
+}
+.ourServices {
+}
+.topSlogan {
+}
+.servBlocks {
+}
+.servBlock1 {
+}
+.story {
+}
+.pricing {
+}
+.pricingBox {
+}
+.box1 {
+}
+.box2 {
+}
+.box3 {
+}
+.footer {
+}
